@@ -458,7 +458,7 @@ function montarLista(lista = listaDeRemedios) {
       <img class="imagensCard" src="${card.imagem}">
       <h2 class="subtitulo">${card.nome}</h2>
 
-      <button type="button" class="button-3" data-bs-toggle="modal" data-bs-target="#myInfo${index}">Informações</button>
+      <button type="button" class="button-3" data-bs-toggle="modal" data-bs-target="#myInfo${index}">Mais informações!</button>
       
       <div class="modal fade" id="myInfo${index}" tabindex="-1" aria-labelledby="myInfo${index}" aria-hidden="true">
         <div class="modal-dialog border border-success">
