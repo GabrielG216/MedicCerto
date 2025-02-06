@@ -64,7 +64,7 @@ var listaHTML = document.getElementById("lista")
     },
     
     {
-      nome: "Buscopam Composto", 
+      nome: "Buscopan Composto", 
       imagem: "img/Buscopam Composto.png",
       indicacoesLista: [
         "Cólicas intestinais e gastrointestinais, como as causadas por gases, prisão de ventre ou distúrbios digestivos",
@@ -79,7 +79,7 @@ var listaHTML = document.getElementById("lista")
     },
     
     {
-      nome: "Buscopam Simples", 
+      nome: "Buscopan Simples", 
       imagem: "img/BuscopamSimples.jpeg",
       indicacoesLista: [
         "Cólicas menstruais",
@@ -458,13 +458,13 @@ function montarLista(lista = listaDeRemedios) {
       <img class="imagensCard" src="${card.imagem}">
       <h2 class="subtitulo">${card.nome}</h2>
 
-      <button type="button" class="button-3" data-bs-toggle="modal" data-bs-target="#myInfo${index}">Saiba Mais!</button>
+      <button type="button" class="button-3" data-bs-toggle="modal" data-bs-target="#myInfo${index}">Informações</button>
       
       <div class="modal fade" id="myInfo${index}" tabindex="-1" aria-labelledby="myInfo${index}" aria-hidden="true">
         <div class="modal-dialog border border-success">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title text-success" id="myInfo${index}">Informações do remedio: ${card.nome}</h5>
+              <h5 class="modal-title text-success" id="myInfo${index}">Informações do remédio: ${card.nome}</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
